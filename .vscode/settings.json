@@ -1,4 +1,4 @@
 {
-  "conventionalCommits.scopes": ["md"],
+  "conventionalCommits.scopes": ["md", "bin"],
   "cSpell.words": ["tsnoder"]
 }
