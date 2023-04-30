@@ -1,0 +1,33 @@
+{
+  "name": "tsnoder",
+  "version": "0.1.0-alpha",
+  "description": "",
+  "main": "./lib/tsnoder.js",
+  "bin": {
+    "tsnoder": "./bin/tsnoder.js"
+  },
+  "scripts": {
+    "start:dev": "nodemon --watch src -e ts --exec tsc",
+    "start": "nodemon --exec ts-node"
+  },
+  "keywords": [
+    "ts-node",
+    "nodemon",
+    "ts-node-dev",
+    "typescript",
+    "tsx",
+    "tsc",
+    "chokidar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mackignacio/tsnoder"
+  },
+  "author": "Mark Anthony Ignacio",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
